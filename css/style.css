@@ -1,0 +1,33 @@
+.header{
+	height:10vh;
+	width:100%;
+	text-align: center;
+	margin:auto;
+	padding:30% 0;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size:50px;
+    color:white;
+    text-shadow:2px 2px grey;
+
+}
+body{
+	margin:0;
+}
+.page{
+	height: 100vh;
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    background-color: #2A3A3F;
+    background-size: cover;
+    background-position: center-50px center;
+    background-repeat: no-repeat;
+}
+
+#homepage {
+	background-image:url("https://i.ibb.co/P131H5Q/IMG-6756.jpg");
+}
