@@ -3,11 +3,21 @@
 	width:100%;
 	text-align: center;
 	margin:auto;
+	font-family: 'Montserrat', sans-serif;
+}
+#name{
 	padding:30% 0;
 }
 
+#about{
+	height:30px;
+	width:200px;
+	padding:5% 0 2% 0;
+	border-bottom: 2px solid black;
+	color:black;
+}
+
 h1{
-	font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size:50px;
     color:white;
@@ -17,12 +27,22 @@ h1{
 body{
 	margin:0;
 }
-.page{
+.page1{
 	height: 100vh;
     position: relative;
     width: 100%;
     min-height: 350px;
-    background-color: #2A3A3F;
+    background-color: #EEF1EF;
+    background-size: cover;
+    background-position: center-50px center;
+    background-repeat: no-repeat;
+}
+.page2{
+	height: 100vh;
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    background-color: #A9B4C2;
     background-size: cover;
     background-position: center-50px center;
     background-repeat: no-repeat;
@@ -30,4 +50,35 @@ body{
 
 #homepage {
 	background-image:url("https://i.ibb.co/P131H5Q/IMG-6756.jpg");
+}
+
+p{
+	text-align: center;
+	padding: 0 15%;
+	line-height: 1.5;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+.row{
+	display:block;
+}
+
+.project{
+	width:20%;
+	padding:5% 0 0 10%;
+	float:left;
+	margin-left: 0;
+}
+
+
+.logo{
+	width:50%;
+	height:auto;
+	border:2px solid black;
+	margin:0 0 0 25%;
+}
+
+.descr{
+	color: grey;
+	font-size: 13px;
 }
