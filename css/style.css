@@ -16,17 +16,75 @@
 	border-bottom: 2px solid black;
 	color:black;
 }
+#myprojects{
+	height:30px;
+	width:200px;
+	padding:5% 0 2% 0;
+	border-bottom: 2px solid black;
+	color:black;
+}
+#hobbies{
+	height:30px;
+	width:200px;
+	padding:5% 0 2% 0;
+	border-bottom: 2px solid black;
+	color:black;
+}
 
 h1{
-    font-weight: 700;
     font-size:50px;
     color:white;
     text-shadow:2px 2px grey;
-
 }
+
+#nav {
+	background-color: #A9B4C2;
+	overflow:hidden;
+	width: 100%;
+	position:fixed;
+	top: 10vh;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.content {
+	padding: 16px;
+}
+
+.sticky + .content {
+	padding-top: 60px;
+}
+
+#nav a {
+	float: right;
+	color: black;
+	text-align: center;
+	font-size:16px;
+	font-family: 'Montserrat', sans-serif;
+	padding:20px;
+	text-decoration: none;
+	display:block;
+}
+
+
+#nav a:hover {
+	background-color: white;
+	color:black;
+}
+
+#nav a.active {
+	background-color: white;
+	color:black;
+}
+
 body{
 	margin:0;
 }
+
 .page1{
 	height: 100vh;
     position: relative;
