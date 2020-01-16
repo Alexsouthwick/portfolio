@@ -38,25 +38,12 @@ h1{
 }
 
 #nav {
-	background-color: #A9B4C2;
+	background-color: #5F758E;
 	overflow:hidden;
 	width: 100%;
-	position:fixed;
-	top: 10vh;
-}
-
-.sticky {
-	position: fixed;
+	position:sticky;
 	top: 0;
-	width: 100%;
-}
-
-.content {
-	padding: 16px;
-}
-
-.sticky + .content {
-	padding-top: 60px;
+	z-index:1;
 }
 
 #nav a {
@@ -80,6 +67,7 @@ h1{
 	background-color: white;
 	color:black;
 }
+
 
 body{
 	margin:0;
@@ -126,6 +114,12 @@ p{
 	padding:5% 0 0 10%;
 	float:left;
 	margin-left: 0;
+}
+
+.hover{
+	border: 10px solid black;
+	width:50%+50px;
+	height:auto;
 }
 
 

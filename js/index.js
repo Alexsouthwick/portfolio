@@ -1,13 +1,5 @@
-window.onscroll = function() {myFunction()};
 
-var nav = document.getElementbyId("nav");
-var sticky = nav.offsetTop;
-
-function myFunction(){
-	if(window.pageYOffset >= sticky) {
-	nav.classList.add("sticky")
+function hover(){
+	var gwc = document.getElementbyId("gwc");
+	gwc.classList.toggle("hover");
 	}
-	else{
-	nav.classList.remove("sticky");
-	}
-}
