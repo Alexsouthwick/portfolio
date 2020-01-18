@@ -9,26 +9,15 @@
 	padding:30% 0;
 }
 
-#about{
+.subheader{
 	height:30px;
 	width:200px;
 	padding:5% 0 2% 0;
 	border-bottom: 2px solid black;
 	color:black;
-}
-#myprojects{
-	height:30px;
-	width:200px;
-	padding:5% 0 2% 0;
-	border-bottom: 2px solid black;
-	color:black;
-}
-#hobbies{
-	height:30px;
-	width:200px;
-	padding:5% 0 2% 0;
-	border-bottom: 2px solid black;
-	color:black;
+	text-align: center;
+	margin:auto;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h1{
@@ -57,17 +46,10 @@ h1{
 	display:block;
 }
 
-
-#nav a:hover {
+.active, .tab:hover {
 	background-color: white;
 	color:black;
 }
-
-#nav a.active {
-	background-color: white;
-	color:black;
-}
-
 
 body{
 	margin:0;
@@ -117,20 +99,34 @@ p{
 }
 
 .hover{
-	border: 10px solid black;
-	width:50%+50px;
+	border: 5px solid black;
+	width:62%;
 	height:auto;
+	margin:0 0 0 23%;
+	border-radius: 10%;
+	box-shadow: 4px 4px grey;
 }
 
 
 .logo{
-	width:50%;
+	width:60%;
 	height:auto;
 	border:2px solid black;
 	margin:0 0 0 25%;
+	border-radius: 10%;
+}
+
+.gwc{
+	width:60%;
+	height:auto;
+	border:2px solid black;
+	margin:0 0 0 25%;
+	border-radius: 10%;
 }
 
 .descr{
-	color: grey;
-	font-size: 13px;
+	color: #F1F7ED;
+	font-size: 14px;
+	/*width:130%;*/
+	padding: 0 0 0 20px;
 }
