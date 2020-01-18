@@ -75,7 +75,9 @@ body{
     background-position: center-50px center;
     background-repeat: no-repeat;
 }
-
+#about{
+	height:130vh;
+}
 #homepage {
 	background-image:url("https://i.ibb.co/P131H5Q/IMG-6756.jpg");
 }
@@ -100,7 +102,7 @@ p{
 
 .hover{
 	border: 5px solid black;
-	width:62%;
+	width:52%;
 	height:auto;
 	margin:0 0 0 23%;
 	border-radius: 10%;
@@ -109,7 +111,7 @@ p{
 
 
 .logo{
-	width:60%;
+	width:50%;
 	height:auto;
 	border:2px solid black;
 	margin:0 0 0 25%;
@@ -117,7 +119,7 @@ p{
 }
 
 .gwc{
-	width:60%;
+	width:50%;
 	height:auto;
 	border:2px solid black;
 	margin:0 0 0 25%;
@@ -129,4 +131,56 @@ p{
 	font-size: 14px;
 	/*width:130%;*/
 	padding: 0 0 0 20px;
+}
+
+.slideshow{
+	max-width: 60%;
+	position: relative;
+	margin:auto;
+	padding:2% 0 0 0;
+}
+.slide{
+	display:none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+  background-color: #717171;
+}
+
+#contact{
+	height:70vh;
 }
